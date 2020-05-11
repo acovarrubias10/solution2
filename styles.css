@@ -1,0 +1,60 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+div > div{
+    background-color: #1e2566;
+    width: 95%;
+    color: #FFF;
+    margin: 10px;
+    border: 1px solid black;
+    height: auto;
+    font-family: Helvetica;
+}
+
+
+p{
+    text-align: justify;
+    margin-top: 45px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+}
+
+h2{
+    margin: 0px;
+    padding: 10px;
+    float: right;
+    background-color: white;
+    color: black;
+  }
+
+  @media (min-width: 1200px) {
+      .md_ext {
+        float: left;
+        width: 31%;
+      }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .md_ext {
+        width: 46.5%;
+        float: left;
+      }
+      #sushi {
+          width: 95%;
+      }
+  }
+
+
+
+
+
